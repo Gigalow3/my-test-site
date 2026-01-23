@@ -22,8 +22,15 @@ export default function Dropdown() {
       {isOpen && (
         <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-10">
           <Link
-            href="/autobiography"
+            href="/portfolio"
             className="block px-6 py-3 text-purple-700 hover:bg-gray-100 first:rounded-t-lg"
+            onClick={() => setIsOpen(false)}
+          >
+            Portfolio
+          </Link>
+          <Link
+            href="/autobiography"
+            className="block px-6 py-3 text-purple-700 hover:bg-gray-100 border-t border-gray-200"
             onClick={() => setIsOpen(false)}
           >
             Read My Story
