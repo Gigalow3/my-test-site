@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { HugeiconsArrowLeftIcon } from '@/components/ui/hugeicons-arrow-left';
 
 export default function Portfolio() {
   return (
@@ -164,9 +165,10 @@ export default function Portfolio() {
         {/* Back Home Link */}
         <Link
           href="/"
-          className="text-purple-600 hover:text-purple-800 font-bold inline-block"
+          className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 font-bold"
         >
-          ← Back Home
+          <HugeiconsArrowLeftIcon size={24} />
+          Back Home
         </Link>
       </div>
     </main>
