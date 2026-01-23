@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="bg-purple-700 text-white shadow-lg sticky top-0 z-20">
       <div className="flex items-center justify-between px-6 py-4">
-        <h1 className="text-3xl font-bold">Gigalow3</h1>
+        <h1 className="text-3xl font-bold">Gigalowe Website</h1>
         
         <div className="relative inline-block">
           <button
